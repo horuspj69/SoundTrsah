@@ -24,8 +24,20 @@ body{
 
 .container{
     height:100vh;
+    display: grid;
+    grid-template-columns: 40% 60%;
     background-repeat: no-repeat;
     background-size: contain;
+    
+}
+
+.container-titulo{
+    margin: 20px;
+}
+
+.container-aviso{
+    margin: 20px;
+    margin-left: 40px;
 }
 
 .container-botao{
@@ -34,4 +46,14 @@ body{
     padding: 2em;
     color:var(--cor-principal);
     display: block;
+    margin-top: 20px;
+}
+.botao-secundario{
+    background-color: transparent;
+    border:2px solid var(--cor-principal);
+    margin-top: 20px;;
+}
+
+.divisoria{
+    margin: 20px;
 }
