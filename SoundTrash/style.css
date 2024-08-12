@@ -19,7 +19,7 @@ body{
 
 .principal{
     background-image: url("img/Background.png");
-
+    text-align: center;
 }
 
 .container{
@@ -36,11 +36,14 @@ body{
 }
 
 .container-aviso{
+    font-size:small;
     margin: 20px;
     margin-left: 40px;
 }
 
 .container-botao{
+    font-size:large;
+    text-decoration: none;
     background-color: var(--cor-do-botao);
     border-radius: 15px;
     padding: 2em;
@@ -54,6 +57,7 @@ body{
     margin-top: 20px;;
 }
 
-.divisoria{
+.container-caixa{
     margin: 20px;
+    margin-left: 35px;
 }
